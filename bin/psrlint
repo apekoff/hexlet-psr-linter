@@ -1,8 +1,12 @@
 #!/usr/bin/env php
 
 <?php
-
 require_once __DIR__ . '/../vendor/autoload.php';
 
-echo 'test';
+$linter = new PhpLinter\linter();
 
+if ($linter->linter()) {
+	echo "work";
+} else {
+	echo "func not work";
+}
