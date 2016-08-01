@@ -2,8 +2,9 @@
 
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
+// require_once __DIR__ . '/../src/Linter.php';
 
-$linter = new PhpLinter\linter();
+$linter = new PhpLinter\Linter();
 
 if ($linter->linter()) {
 	echo "work";
