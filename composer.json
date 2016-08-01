@@ -1,6 +1,6 @@
 {
-  "name": "hexlet/php-package",
-  "bin": ["bin/php-package"],
+  "name": "apekoff/hexlet-psr-linter",
+  "bin": ["bin/hexlet-psr-linter"],
   "type": "library",
   "require-dev": {
     "phpunit/phpunit": "*",
