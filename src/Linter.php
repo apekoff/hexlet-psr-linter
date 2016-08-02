@@ -6,6 +6,6 @@ class Linter
 {
 	public function linter()
 	{
-	    return true;
-	}
+   return true;
+ }
 }
