@@ -7,7 +7,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 $linter = new PhpLinter\Linter();
 
 if ($linter->linter()) {
-	echo "work";
+    echo "work";
 } else {
-	echo "func not work";
+    echo "func not work";
 }
