@@ -2,12 +2,8 @@
 
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
-// require_once __DIR__ . '/../src/Linter.php';
 
-$linter = new PhpLinter\Linter();
+$file = $argv[1];
 
-if ($linter->linter()) {
-    echo "work";
-} else {
-    echo "func not work";
-}
+$linter = new PhpLinter\Linter($file);
+$linter->parseFile($file);
